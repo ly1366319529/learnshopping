@@ -55,3 +55,11 @@ test
 ##### 查看支付状态
 #### 八、线上部署
 ##### 阿里云部署
+
+
+
+ #   -------------20181204-------------
+## 远程分支合并 dev分支
+   ###    git checkout div
+   ###    git pull origin dev
+   ###    git checkout dev

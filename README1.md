@@ -25,7 +25,7 @@
  #####  git branch 分支名字      创建分支
  #####  git checkout -b dev 创建并切换到dev分支
  #####  git checkout 分支名   切换分支
- #####  git pull 拉取
+ #####  git pull origin 文件名  拉取远程分支
  #####  git push -u origin master 提交到远程仓库
  #####  git merge branchname   分支合并
    #####  git remote add origin "远程仓库地址"   关联远程仓库
