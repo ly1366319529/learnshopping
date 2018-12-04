@@ -22,6 +22,7 @@
  ##### git log查看提交 committed
  ##### git reset --hard committed 版本回退
  #####  git branch 查看分支
+ #####  git branch 分支名字      创建分支
  #####  git checkout -b dev 创建并切换到dev分支
  #####  git checkout 分支名   切换分支
  #####  git pull 拉取
@@ -35,3 +36,7 @@
   ##### git branch -d 分知名 删除分支
    #####  git fetch 将更新git remote 中的所有远程repo所包含分支的最新commit-id，将其记录到git/FETCH_HEAD文件中
    ##### ssh -T git@github.com
+   ##### 第一次推送：本地仓库提交到远程仓库
+   ##### git push -u -f origin master
+   ##### 以后：本地仓库提交到远程仓库
+   ##### git push origin master
